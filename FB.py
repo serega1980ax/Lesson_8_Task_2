@@ -5,6 +5,7 @@ res = open('result.py', 'w') #если файла не существует, с�
 
 for line in f:
     b=list(map(int, line.split()))
+    print(b)
 
     fizz = int(b[0])
     buzz = int(b[1])
